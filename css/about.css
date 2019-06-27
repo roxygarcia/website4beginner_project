@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+}
+
+.nav-bar {
+    position: absolute;
+    top: 0;
+    position: fixed;
+}
+
+.list-item a {
+    color: rgb(243, 242, 242);
+}
+
+.container {
+    height: 700px;
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.column {
+    width: 28%;
+    border: 3px solid rgb(65, 64, 64);
+    float: left;
+    padding: 25px 20px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.col-img {
+    height: 300px;
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.audio-col {
+    display: block;
+    margin: auto;
+    height: 300px;
+}
+
+.col-video {
+    display: block;
+    width: 500px;
+    padding: 10px;
+}
